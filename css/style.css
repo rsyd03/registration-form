@@ -1,0 +1,124 @@
+a{
+    text-decoration: none;
+    color: #FF6A00;
+}
+
+.sign-up{
+    width: 377px;
+	border: 1px solid darkgrey;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    border-top: 4px solid #FF6A00;
+    box-shadow: 20px 0 10px -4px rgba(0, 0, 0, 0.04), -20px 0 10px -4px rgba(0, 0, 0, 0.04);
+
+}
+
+.reg select{
+    border: none;
+    width: 350px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 12px;
+    outline: none;
+    margin-bottom: 5px;	
+}
+
+.checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox > span {
+    color: #34495E;
+    padding: 0.5rem 0.25rem;
+}
+
+.checkbox input{
+    margin-top: 0.7rem;
+    margin-right: 10px;
+}
+
+.checkbox > input {
+    height: 24px;
+    width: 100px;
+    appearance: none;
+    border: 2px solid #dcdddd;
+    transition-duration: 0.1s;
+    background-color: none;
+    cursor: pointer;
+}
+
+.checkbox > input:checked {
+    background-color: #FF6A00;
+}
+
+.checkbox > input:checked + span::before {
+    content: '\2713';
+    display: block;
+    text-align: center;
+    margin-top: 0.7rem;
+    color: white;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.07rem;
+}
+
+.name input[type=text]{
+    font-size: 15px;
+	width: 350px;
+    padding:8px;
+    border: 1px solid #FF6A00;
+}
+
+.email input[type=text]{
+    font-size: 15px;
+	width: 350px;
+    padding:8px;
+    border: 1px solid #FF6A00;
+}
+
+.pass input[type=password]{
+    font-size: 15px;
+	width: 350px;
+    padding:8px;
+    border: 1px solid #FF6A00;
+}
+
+.sign-up p{
+    color: #FF6A00;
+}
+
+.isimbol{
+    float:left;
+    margin-right:10px;
+    font-size: 14px;
+}
+
+.term{
+    color: #ffa200;
+}
+
+#submit {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: #FF6A00;
+    border: none;
+    cursor: pointer;
+}
+
+#submit button:hover{
+    background-color: #e56000;
+}
+
+.dwn{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dwn p{
+    color: black;
+}

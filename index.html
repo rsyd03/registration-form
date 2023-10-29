@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Registration form</title>
+</head>
+<body style="background: #E1F4F3;">
+    <style>
+        .wrap{
+            width: 800px;
+            margin: 10px auto;
+            padding: 1px;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">yas's</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#personal-information">PERSONAL INFORMATION</a></li>
+                  <li><a class="dropdown-item" href="#school-information">SCHOOL INFORMATION</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./uas2.html">
+                  <i class="fas fa-user"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="wrap">
+        <img src="./assets/Logo-SoCS-Black-Blue-640x304.png" width="800px" alt="">
+    </div>
+    <div class="wrap" style="background-color: white;">
+        <form>
+            <table width="750">
+                <h3 style="background-color: grey;" align="center" id="personal-information">PERSONAL INFORMATION</h3>
+                <tr>
+                    <td>Registration number</td>
+                    <td><input type="text" name=""></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name=""></td>
+                </tr>
+                <tr>
+                    <td>Place and date of birth</td>
+                    <td><input type="text" name="">
+                        <input type="date" name=""></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Religion</td>
+                    <td><select name="" id="">
+                        <option value=""></option>
+                        <option value="">Islam</option>
+                        <option value="">Protestant</option>
+                        <option value="">Catholic</option>
+                        <option value="">Hindu</option>
+                        <option value="">Buddha</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="" id=""><label for="m">Man</label>
+                        <input type="radio" name="" id=""><label for="w">Woman</label></td>
+                </tr>
+                <tr>
+                    <td>Citizenship</td>
+                    <td><select name="" id="">
+                        <option value=""></option>
+                        <option value="">WNI</option>
+                        <option value="">WNA</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Job</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Urban village</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Sub-district</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>District/regency</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Province</td>
+                    <td><select name="" id="">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value="51">Bali</option>
+                        <option value="36">Banten</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Phone number</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                </table>
+                <table width="650">
+                    <h3 style="background-color: grey;" align="center" id="school-information">SCHOOL INFORMATION</h3>
+                    <tr>
+                        <td>School name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Which school are you from</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Major</td>
+                        <td><select>
+                            <option value=""></option>
+                            <option value="">Natural Sciences</option>
+                            <option value="">Social Sciences</option>
+                            <option value="">Language Studies</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Graduation year</td>
+                        <td><select>
+                            <option value=""></option>
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2022</option>
+                        </select></td>
+                    </tr>
+                </table>
+        </form>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <!-- <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li> -->
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <!-- <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li> -->
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <!-- <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li> -->
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-dark">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 2</a>
+                </li>
+                <!-- <li>
+                  <a href="#!" class="text-dark">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Link 4</a>
+                </li> -->
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->              
+      </footer>
+</body>
+</html>
