@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: #FF6A00;
+    color: grey;
 }
 
 .sign-up{
@@ -9,7 +9,7 @@ a{
     margin: auto;
     padding: 20px;
     margin-top: 100px;
-    border-top: 4px solid #FF6A00;
+    /* border-top: 4px solid; */
     box-shadow: 20px 0 10px -4px rgba(0, 0, 0, 0.04), -20px 0 10px -4px rgba(0, 0, 0, 0.04);
 
 }
@@ -51,7 +51,7 @@ a{
 }
 
 .checkbox > input:checked {
-    background-color: #FF6A00;
+    background-color: grey;
 }
 
 .checkbox > input:checked + span::before {
@@ -69,26 +69,26 @@ a{
     font-size: 15px;
 	width: 350px;
     padding:8px;
-    border: 1px solid #FF6A00;
+    border: 1px solid;
 }
 
 .email input[type=text]{
     font-size: 15px;
 	width: 350px;
     padding:8px;
-    border: 1px solid #FF6A00;
+    border: 1px solid;
 }
 
 .pass input[type=password]{
     font-size: 15px;
 	width: 350px;
     padding:8px;
-    border: 1px solid #FF6A00;
+    border: 1px solid;
 }
 
-.sign-up p{
+/* .sign-up p{
     color: #FF6A00;
-}
+} */
 
 .isimbol{
     float:left;
@@ -96,23 +96,23 @@ a{
     font-size: 14px;
 }
 
-.term{
+/* .term{
     color: #ffa200;
-}
+} */
 
 #submit {
     padding: 10px;
     margin-top: 10px;
     width: 100%;
     color: white;
-    background-color: #FF6A00;
+    background-color: #706C61;
     border: none;
     cursor: pointer;
 }
 
-#submit button:hover{
+/* #submit button:hover{
     background-color: #e56000;
-}
+} */
 
 .dwn{
     text-align: center;
